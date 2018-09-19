@@ -15,3 +15,10 @@ D. If playing with the KS stretch goal cards, those affect the score of the play
 
 Obviously, the toughest element to count within the score are the number of roads in the town. 
 the smaller ones are easier to count, but the ones spanning multiple cards could be tough.
+
+The main intent of this program, is to be a dedicated calculator for the end game. yeah, it came with a
+postcard as a KS stretch goal that you can use a dry erase marker, but who is going to carry that around intheir pocket?
+
+intended input fields: the 3 town conditions, the 4 districts and roads.
+CTE optional fields: the construction zone cards, the district boost card, wrecktaur. 
+radial inputs: difficulty settings.
