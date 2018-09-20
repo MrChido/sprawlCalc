@@ -1,5 +1,10 @@
 sprawlCalc
 
+Revision notes:
+9/19/2018
+Trying to calculate district totals.
+In the .htm file, the first 4 input boxes are supose to be evaluated by the button and placed into the 5th box, but nothing apears. Not quite sure where the hang up is because my text editor, nor crome console has flagged any error.
+
 Sprawlopolis just released from its kickstarter campaign and Its a beast to score.
 It has several elements to how the game scores.
 
