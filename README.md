@@ -9,6 +9,7 @@ In the .htm file, the first 4 input boxes are supose to be evaluated by the butt
 **Resolved** In the process of error handling, I have come across a curious bug. When evaluating multiple numbers for the 'Town Condition' values.
 Entering a sequence of '1,1,9' for example will display the appropriate erorr message, but then will overwrite the '9' with a '1' for some unknown reason.
 
+Intent of program/code:
 
 Sprawlopolis just released from its kickstarter campaign and Its a beast to score.
 It has several elements to how the game scores.
