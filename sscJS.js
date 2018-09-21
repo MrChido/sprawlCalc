@@ -24,15 +24,15 @@ TownCon.addEventListener('click', ()=>{
         tcT.value = "XX"
     }
     //duplication Error
-    if(tc1.value = tc2.value || tc3.value){
+    if(tc1.value == tc2.value || tc3.value){
         alert(Noclone)
         tcT.value = "XY"
     }
-    if(tc2.value = tc1.value || tc3.value){
+    if(tc2.value == tc1.value || tc3.value){
         alert(Noclone)
         tcT.value = "XY"
     }
-    if(tc3.value = tc2.value || tc1.value){
+    if(tc3.value == tc2.value || tc1.value){
         alert(Noclone)
         tcT.value = "XY"
     }
