@@ -1,6 +1,9 @@
 sprawlCalc
 
-Revision notes:
+Issue Log:
+
+9/21/2018
+one of the error handles is not working right so I commented that out, for now. I started to include the hard mode modifyer but its not performing correctly. It needs to check to see which of the 4 districts types is highest and zero out the other three, but its keeping the first district (residential) and zeroing out the others regardless of what the value is. (its a check box at the moment, might try a independant button later)
 
 9/19/2018
 **Resolved** Trying to calculate district totals.
