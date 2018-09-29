@@ -2,6 +2,7 @@
 const TownCon= document.getElementById("tcCalc");
 const District = document.getElementById("Dcalc");
 const eGame = document.getElementById("result");
+const hardMode = document.getElementById("hardM");
 
 //error messages
 const Icard = "No card exists, please check again"
@@ -40,27 +41,16 @@ TownCon.addEventListener('click', ()=>{
 });
 District.addEventListener('click', ()=>{
     districtTotal.value=parseInt(residential.value)+ parseInt(industrial.value)+ parseInt(recreation.value)+ parseInt(comercial.value)
+    
 });
 eGame.addEventListener('click', ()=>{
-    if(hardM.checked == true){
-        if(residential.value > industrial.value || recreation.value || comercial.value){
-            industrial.value = 0;
-            recreation.value = 0;
-            comercial.value = 0;
-        }else if (industrial.value > residential.value || recreation.value || comercial.value){
-            residential.value = 0;
-            recreation.value = 0;
-            comercial.value = 0;
-        }else if(recreation.value > industrial.value || residential.value || comercial.value){
-            industrial.value = 0;
-            residential.value = 0;
-            comercial.value = 0;
-        }else if(comercial.value > industrial.value || recreation.value || residential.value){
-            industrial.value = 0;
-            recreation.value = 0;
-            comercial.value =0;
-        }else{}
-    }
+    
     EGS.value = districtTotal.value - parseInt(roadCount.value)+ parseInt(wrecker.value)+ parseInt(consI.value)+ parseInt(poiB.value)
     sRate.value = (EGS.value /tcT.value)* 100
 });
+hardMode.addEventListener('click', ()=>{
+    if(hardM.checked = true){
+        alert("Keep the highest value and replace the rest with '0's and re-evaluate")
+    }
+});
+    
