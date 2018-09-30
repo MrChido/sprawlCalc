@@ -53,4 +53,21 @@ hardMode.addEventListener('click', ()=>{
         alert("Keep the highest value and replace the rest with '0's and re-evaluate")
     }
 });
-    
+eGame.addEventListener('dblclick', ()=>{
+    districtTotal.value="";
+    residential.value="";
+    industrial.value="";
+    comercial.value="";
+    roadCount.value="";
+    wrecker.value="";
+    consI.value="";
+    poiB.value="";
+    sRate.value="";
+    EGS.value="";
+    tcT.value="";
+    hardM.checked = false;
+    tc1.value="";
+    tc2.value="";
+    tc3.value="";
+
+});
