@@ -4,17 +4,46 @@ const District = document.getElementById("Dcalc");
 const eGame = document.getElementById("result");
 const hardMode = document.getElementById("hardM");
 
-//error messages
-const Icard = "No card exists, please check again"
-const Noclone = "This game contains no duplicate cards...unless someone snuck them in on the DL"
-
-
 TownCon.addEventListener('click', ()=>{
     tcT.value= parseInt(tc1.value) + parseInt(tc2.value) + parseInt(tc3.value)
   });
+TownCon.addEventListener('dblclick', ()=>{
+    districtTotal.value="";
+    residential.value="";
+    industrial.value="";
+    comercial.value="";
+    roadCount.value="";
+    wrecker.value="";
+    consI.value="";
+    poiB.value="";
+    sRate.value="";
+    EGS.value="";
+    tcT.value="";
+    hardM.checked = false;
+    tc1.value="";
+    tc2.value="";
+    tc3.value="";
+});
 District.addEventListener('click', ()=>{
     districtTotal.value=parseInt(residential.value)+ parseInt(industrial.value)+ parseInt(recreation.value)+ parseInt(comercial.value)
     
+});
+District.addEventListener('dblclick',()=>{
+    districtTotal.value="";
+    residential.value="";
+    industrial.value="";
+    comercial.value="";
+    roadCount.value="";
+    wrecker.value="";
+    consI.value="";
+    poiB.value="";
+    sRate.value="";
+    EGS.value="";
+    tcT.value="";
+    hardM.checked = false;
+    tc1.value="";
+    tc2.value="";
+    tc3.value="";
 });
 eGame.addEventListener('click', ()=>{
     
@@ -23,7 +52,7 @@ eGame.addEventListener('click', ()=>{
 });
 hardMode.addEventListener('click', ()=>{
     if(hardM.checked = true){
-        alert("Keep the highest value and replace the rest with '0's and re-evaluate")
+        alert("Keep the highest value and replace the rest with '0's and re-evaluate. (I tried to save you the leg work but failed. Sorry.)")
     }
 });
 eGame.addEventListener('dblclick', ()=>{
