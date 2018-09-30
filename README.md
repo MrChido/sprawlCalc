@@ -1,17 +1,5 @@
 sprawlCalc
 
-Issue Log:
-
-9/21/2018
-one of the error handles is not working right so I commented that out, for now. I started to include the hard mode modifyer but its not performing correctly. It needs to check to see which of the 4 districts types is highest and zero out the other three, but its keeping the first district (residential) and zeroing out the others regardless of what the value is. (its a check box at the moment, might try a independant button later)
-
-9/19/2018
-**Resolved** Trying to calculate district totals.
-In the .htm file, the first 4 input boxes are supose to be evaluated by the button and placed into the 5th box, but nothing apears. Not quite sure where the hang up is because my text editor, nor crome console has flagged any error.
-
-**Resolved** In the process of error handling, I have come across a curious bug. When evaluating multiple numbers for the 'Town Condition' values.
-Entering a sequence of '1,1,9' for example will display the appropriate erorr message, but then will overwrite the '9' with a '1' for some unknown reason.
-
 Intent of program/code:
 
 Sprawlopolis just released from its kickstarter campaign and Its a beast to score.
@@ -35,5 +23,7 @@ The main intent of this program, is to be a dedicated calculator for the end gam
 postcard as a KS stretch goal that you can use a dry erase marker, but who is going to carry that around in their pocket?
 
 intended input fields: the 3 town conditions, the 4 districts and roads.
-CTE optional fields: the construction zone cards, the district boost card, wrecktaur. 
+CTE optional fields: the construction zone cards, the district boost card, wrecktar. 
 checkbox input: hard mode selector.
+
+9/30/2018 I added a reset feature(s), double clicking any of the buttons will reset the data fields.
