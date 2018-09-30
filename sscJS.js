@@ -23,6 +23,7 @@ TownCon.addEventListener('dblclick', ()=>{
     tc1.value="";
     tc2.value="";
     tc3.value="";
+    recreation.value="";
 });
 District.addEventListener('click', ()=>{
     districtTotal.value=parseInt(residential.value)+ parseInt(industrial.value)+ parseInt(recreation.value)+ parseInt(comercial.value)
@@ -44,6 +45,7 @@ District.addEventListener('dblclick',()=>{
     tc1.value="";
     tc2.value="";
     tc3.value="";
+    recreation.value="";
 });
 eGame.addEventListener('click', ()=>{
     
@@ -60,6 +62,7 @@ eGame.addEventListener('dblclick', ()=>{
     residential.value="";
     industrial.value="";
     comercial.value="";
+    recreation.value="";
     roadCount.value="";
     wrecker.value="";
     consI.value="";
